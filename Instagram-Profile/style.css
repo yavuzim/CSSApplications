@@ -1,0 +1,217 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(238, 231, 231);
+}
+#header-top{
+    width: 1535px;
+    height: 60px;
+    background-color: #fff;
+}
+#header-logo{
+    width: 125px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    left: 280px;
+}
+#header-search-field{
+    width: 200px;
+    height: auto;
+    background-color: rgb(238, 231, 231);
+    display: inline-block;
+    position: relative;
+    left: 510px;
+    bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#header-search-field>input{
+    position: relative;
+    top: 0px;
+    left: 62px;
+    width: 55px;
+    border: none;
+    background-color: rgb(238, 231, 231);
+    outline: none;
+}
+#header-search-field>i{
+    position: relative;
+    margin-bottom:4px;
+    left: 55px;
+    top: 5px;
+    color: rgb(155, 151, 151);
+    font-size: 12px;
+}
+#header-right{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-top: 15px;
+    position: relative;
+    left: 700px;
+    bottom: 5px;
+}
+#header-right>i{
+    margin-left: 15px;
+    font-size: 20px;
+}
+#header-profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid;
+    display: inline-block;
+    margin-left: 15px;
+    overflow-y: hidden;
+}
+#header-profile>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid;
+}
+#header-right>#header-profile{
+    position: relative;
+    top: 4px;
+}
+@media only screen and (min-width:1200px){ /* XL*/
+    #header-logo{
+        width: 125px;
+        height: 35px;
+        display: inline-block;
+        position: relative;
+        left: 280px;
+    }    
+    #header-search-field{
+        width: 200px;
+        height: auto;
+         background-color: rgb(238, 231, 231);
+        display: inline-block;
+        position: relative;
+        left: 510px;
+        bottom: 5px;
+        padding: 5px;
+        border-radius: 5px;
+    }    
+    #header-right{
+        width: auto;
+        height: auto;
+        display: inline-block;
+        margin-top: 15px;
+        position: relative;
+        left: 700px;
+        bottom: 5px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+    #header-logo{
+        width: 125px;
+        height: 35px;
+        display: inline-block;
+        position: relative;
+        left: 250px;
+    }
+    #header-search-field{
+        width: 200px;
+        height: auto;
+         background-color: rgb(238, 231, 231);
+        display: inline-block;
+        position: relative;
+        left: 300px;
+        bottom: 5px;
+        padding: 5px;
+        border-radius: 5px;
+    } 
+    #header-right{
+        width: auto;
+        height: auto;
+        display: inline-block;
+        margin-top: 15px;
+        position: relative;
+        left: 350px;
+        bottom: 5px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){ /* N */
+    #header-logo{
+        width: 125px;
+        height: 35px;
+        display: inline-block;
+        position: relative;
+        left: 200px;
+    }
+    #header-search-field{
+        width: 200px;
+        height: auto;
+         background-color: rgb(238, 231, 231);
+        display: inline-block;
+        position: relative;
+        left: 250px;
+        bottom: 5px;
+        padding: 5px;
+        border-radius: 5px;
+    } 
+    #header-right{
+        width: auto;
+        height: auto;
+        display: inline-block;
+        margin-top: 15px;
+        position: relative;
+        left: 280px;
+        bottom: 5px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+    #header-logo{
+        width: 125px;
+        height: 35px;
+        display: inline-block;
+        position: relative;
+        left: 100px;
+    }
+    #header-search-field{
+        width: 200px;
+        height: auto;
+         background-color: rgb(238, 231, 231);
+        display: inline-block;
+        position: relative;
+        left: 120px;
+        bottom: 5px;
+        padding: 5px;
+        border-radius: 5px;
+    } #header-right{
+        width: auto;
+        height: auto;
+        display: inline-block;
+        margin-top: 15px;
+        position: relative;
+        left: 150px;
+        bottom: 5px;
+    }
+}
+@media only screen and (max-width:574px){ /* XS */
+    #header-logo{
+        width: 125px;
+        height: 35px;
+        display: inline-block;
+        position: relative;
+        left: 10px;
+    }
+    #header-search-field{
+      display: none;
+    } #header-right{
+        width: auto;
+        height: auto;
+        display: inline-block;
+        margin-top: 15px;
+        position: relative;
+        left: 130px;
+        bottom: 5px;
+    }
+}
