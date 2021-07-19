@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+#container{
+    width: 960px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    width: 960px;
+    height: 112px;
+}
+#logo{
+    width: 111px;
+    height: 112px;
+    display: inline-block;
+    background-image: url("images/logo.png");
+}
+#menu{
+    width: 839px;
+    height: 112px;
+    background-color: black;
+    display: inline-block;
+    margin-left:4px;
+    text-align: center;
+    vertical-align: top;
+}
+#menu li{    
+    display: inline-block;
+}
+#menu a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 14px;
+    height: 112px;
+    display: inline-block;
+    line-height: 112px;
+}
+#menu a:hover{
+    background-color: #202020;
+}
+#banner{
+    width: 960px;
+    height: 442px;
+    background-color: #92c4eb;
+    margin-top: 10px;
+    position: relative;
+}
+#bannerleft{
+    width: 385px;
+    height: 268px;
+    position: absolute;
+    top: 45px;
+    left: 68px;
+}
+#bannerleft h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 15px;
+}
+#bannerleft h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+#bannerright{
+    width: 461px;
+    height: 420px;
+    position: absolute;
+    top: 19px;
+    left: 469px;
+}
+#bannerright img{
+    transform: scale(1);
+    position: relative;
+    left: 0;
+    transition: all 0.4s;
+}
+#bannerright img:hover{
+    transform: scale(1.2);
+    left:-50px;
+}
+#homeBoxes{
+    width: 960px;
+    height: 493px;
+    background-color: black;
+    text-align: center;
+    vertical-align: top;
+}
+.box{
+    width: 276px;
+    height: 380px;
+    padding: 50px 0 50px 25px;
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: top;
+}
+.circleImage img{
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    transition: all 0.4;
+}
+.circleImage img:hover{
+    opacity: 0.7;
+}
+.circleImage h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin: 15px 0;
+}
+.circleImage p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.contact{
+    width: 960px;
+    height: 208px;
+    background-color: beige;
+    margin-top: 10px;
+    position: relative;
+}
+.contact p{
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+}
+.contact input{
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    top: 35px;
+    left: 150px;
+    background-color: gainsboro; 
+    border: 0px; 
+    outline: 0;
+}
+.contact button{
+    width: 50px;
+    height: 30px;
+    background-color: dimgrey;
+    position: absolute;
+    top: 35px;
+    left: 44%;
+    outline: 0;
+}
+.contact button:hover{
+    cursor: pointer;
+}
+.contact button i{
+    font-size: 25px;
+}
+.social{
+    position: absolute;
+    left: 70%;
+    top: 35px;
+}
+.social i{
+    font-size: 25px;
+    padding-left:25px;
+    transition: all 0.4s;
+    transform: scale(1);
+}
+.social i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.social p{
+    position: absolute;
+    top: 120px;
+    left: -130%;
+    font-size: 13px;
+}

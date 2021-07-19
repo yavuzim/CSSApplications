@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: white;
+}
+.mid-div{
+    width: 50%;
+    height: 500px;
+    margin: 100px 0 0 24%;
+    position: absolute;
+    background-color: white;
+    box-shadow: 7px 7px 32px  black;
+}
+.left-div-in{
+    width: 5%;
+    height: 500px;
+    background-color: rgb(8, 184, 117);
+    position: absolute;
+    margin: 100px 0 0 26%;
+}
+.triangle-div{
+    border-color: rgb(8, 184, 117) transparent transparent transparent;
+    border-style: solid;
+    border-width: 50px 38px 0 39px;
+    position: absolute;
+    margin: 600px 0 0 26%;
+}
+.login-div{
+    margin: 82px 0 0 50%;
+    font-size: 15pt;
+    width: 65px;
+}
+.email-div{
+    margin: 50px 0 0 198px;
+    font-size: 15pt;
+    width: 52px;
+}
+.pass-div{
+    margin: 25px 0 0 198px; 
+    font-size: 15pt;
+    width: 82px;
+}
+a .forgot-div{
+    margin: 25px 0 0 65%; 
+    font-size: 9pt;
+    width: 100px;
+    color: black;
+}
+.textbox{
+    margin: 12px 0 0 198px;
+    width: 50%;
+    height: 32px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0ch;
+}
+.button{
+    width: 50%;
+    height: 40px;
+    margin: 50px 0 0 25%;
+    border: 0;
+    color: white;
+    font-size: 15pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    background-color: rgb(8, 184, 117);
+    outline: 0ch;
+}
+.button:hover{
+    cursor: pointer;
+}

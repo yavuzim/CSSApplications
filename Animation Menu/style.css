@@ -1,0 +1,31 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.spotify{
+    margin-left: 5%;
+}
+.banner{
+    margin: 38px 0 0 5%;
+}
+.menu{
+    width: 93%;
+    margin-left: 3%;
+    margin-top: 70px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    }
+.menu li{
+display: inline-block;
+}
+.menu img{
+    opacity: 1;
+    transition: all 0.4s;
+    transform: scale(1);
+}
+.menu img:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
