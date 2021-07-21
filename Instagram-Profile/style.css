@@ -246,13 +246,11 @@ nav{
 #nav-profile-img>img{
     width: 180px;
     height: 180px;
-    border: 1px solid blue;
     border-radius: 100px;
 }
 #nav-profile-info{
     width: 480px;
-    height: 180px;
-    border: 1px solid blue;
+    height: 200px;
     display: inline-block;
     position: relative;
     top: 12px;
@@ -289,13 +287,54 @@ nav{
     font-weight: 500;
     background-color: rgb(228, 222, 222);
 }
+#nav-edit>button:hover{
+    cursor: pointer;
+}
 #nav-settings{
     display: inline-block;
-    border: 1px solid red;
     position: relative;
     top: 18px;
-    left: 25px;
+    left: 13px;
 }
 #nav-settings>i{
     font-size: 25px;
+}
+#nav-settings>i:hover{
+    cursor: pointer;
+}
+#nav-fallower-field{
+    position: relative;
+    top: 35px;
+    height: auto;
+}
+#nav-fallower-field>.nav-fallower{
+    display: inline-block;
+}
+#nav-fallower-field>.nav-fallower>span{
+    font-weight: 700;
+}
+.fallow{
+    margin-left: 45px;
+}
+#nav-profile-name{
+    position: relative;
+    top: 48px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#nav-profile-biography{
+    position: relative;
+    top: 52px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav-profile-link{
+    position: relative;
+    top: 56px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav-profile-link>a{
+    color: rgb(8, 8, 121);
+    font-weight: 600;
 }
