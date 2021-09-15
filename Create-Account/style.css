@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    background-color: aliceblue;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color:#FFFFFF;
+    width: 450px;
+    height:470px;
+    border-radius: 10px;
+    position: relative;
+}
+.close-btn{
+    width: 30px;
+    height: 30px;
+    background-color: #F1F1FC;
+    color: #797EA8;
+    border-radius: 100px;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    overflow: hidden;
+    border: none;
+}
+.close-btn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: #FFFFFF;
+}
+.title{
+    position:absolute;
+    top: 50px;
+    left: 110px;
+    width: 220px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    color: #17163C;
+}
+.signup-buttons{
+    width: 280px;
+    height: 270px;
+    color: white;
+    position: absolute;
+    top: 125px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.google-btn{
+    width: 250px;
+    height: 55px;
+    border-radius:10px;
+    top: 10px; 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D14B3E;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;  
+    user-select: none;
+    
+}
+.google-btn:hover{cursor: pointer;}
+.facebook-btn{
+    width: 250px;
+    height: 55px;
+    border-radius:10px;
+    top: 75px; 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D5A96;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;    
+    user-select: none;
+    
+}
+.facebook-btn:hover{cursor: pointer;}
+.twitter-btn{
+    width: 250px;
+    height: 55px;
+    border-radius:10px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #58ACEA;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    user-select: none;
+}
+.twitter-btn:hover{cursor: pointer;}
+.checkbox-field{ 
+    width: 290px;
+    position: absolute;
+    bottom:25px;
+    left: 85px;
+}
+.text-field{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
