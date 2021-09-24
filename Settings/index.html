@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/flat-seo-web-ikooni/128/flat_seo-17-256.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Settings</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="btn-field">
+            <button class="btn-settings" onclick="btnClick()">Settings</button>
+        </div>
+
+        <div class="modal">
+            <div class="settings-form">
+                <span class="close-field" onclick="modalOff()">
+                    <span class="img-field"> <img class="close-img" src="images/icon-close.svg" alt="" srcset=""></span>
+                    <span class="close-text">Close</span>
+                </span>
+                <span class="modal-title">
+                    <h1>Settings</h1>
+                </span>
+                <span class="modal-subtitle">
+                    <h2>Language</h2>
+                </span>
+                <span class="modal-explanation">
+                    <p>
+                        Let us know which language you’re most comfortable using. You
+                        can change it back at any time.
+                    </p>
+                </span>
+                <div class="dropdown">
+                    <div class="dropdown-title">
+                        <span>English</span>
+                        <span class="select-img" onclick="dropDown_click()"><img src="images/select-arrow.svg" alt=""
+                                srcset=""></span>
+                    </div>
+                </div>
+                <div class="dropdown-select">
+                    <div class="select">English</div>
+                    <div class="select">Türkçe</div>
+                    <div class="select">Deutch</div>
+                </div>
+                <span class="line"></span>
+                <div class="settings-select">
+                    <div class="settings-select-text">
+                        <h2>Autoplay Videos</h2>
+                        <p>
+                            Choose if you want to autoplay on your browser
+                        </p>
+                        <input class="check1" type="checkbox">
+                    </div>
+                    <div class="settings-select-text">
+                        <h2>Show profile photos</h2>
+                        <p>
+                            Choose whether to show or hide profile photos of other members.
+                        </p>
+                        <input class="check2" type="checkbox">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-save">Save</button>
+                    <button class="btn btn-cancel">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
