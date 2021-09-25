@@ -4,7 +4,7 @@
 }
 body{
     background-color: #F2F2F2;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .container{
     width: 100%;
@@ -89,7 +89,7 @@ body{
     font-weight: 900;
 }
 .modal-explanation{   
-    width: 470px; 
+    width: 50%; 
     position: absolute;
     top: 31%;
     left: 10%;
@@ -111,7 +111,6 @@ body{
     font-size: 24px;
     padding: 12px;
     color: #242E4C;
-
 }
 .select-img{
     position: absolute;
@@ -164,7 +163,8 @@ body{
 }
 .settings-select>.settings-select-text>p{
     font-size: 18px;
-    line-height: 42px;
+    line-height: 30px;
+    width: 75%;
 }
 .settings-select>.settings-select-text>.check1{
     width: 65px;
@@ -248,4 +248,91 @@ body{
 }
 .btn-cancel:hover{
     border:2px solid rgb(85, 84, 84);
+}
+@media only screen and (min-width:483px){
+    .buttons{
+        width: 80%;
+        height: auto;
+        position: absolute;
+        top: 88%;
+        left: 10%;
+    }
+    .dropdown{
+        position: absolute;
+        top: 44%;
+        left: 10%;
+        user-select: none;
+    }
+
+}
+@media only screen and (min-width:414px){
+    .settings-select{
+        width: 85%;
+        position: absolute;
+        top: 57%;
+        left: 10%;
+    }
+    .buttons{
+        width: 85%;
+        height: auto;
+        position: absolute;
+        top: 88%;
+        left: 10%;
+    }
+    .dropdown{
+        position: absolute;
+        top: 44%;
+        left: 10%;
+        user-select: none;
+    }
+
+}
+@media only screen and (min-width:375px) and (max-width:400px){
+    .close-field{
+        display: inline-block;
+        position:absolute;
+        right: 35px;
+        top: 85px;
+        user-select: none;
+    }
+    .settings-select{
+        width: 88%;
+        position: absolute;
+        top: 57%;
+        left: 10%;
+    }
+    .buttons{
+        width: 90%;
+        height: auto;
+        position: absolute;
+        top: 88%;
+        left: 5%;
+    }
+    .dropdown-title{
+        width:280px;
+        border: 2px solid #D8DBE6;
+        border-radius: 5px;
+        font-size: 24px;
+        padding: 12px;
+        color: #242E4C;
+    }
+    .dropdown{
+        width: 320px;
+        position: absolute;
+        top: 44%;
+        left: 10%;
+        user-select: none;
+    }
+    .dropdown-select{
+        width: 303px;
+        border: 2px solid #D8DBE6;
+        user-select: none;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #9298AD;
+        position: absolute;
+        top: 51%;
+        left: 10%;
+        display: none;
+    }
 }
