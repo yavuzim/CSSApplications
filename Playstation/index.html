@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>Playstation</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./images/logo.png" class="logo" alt="">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Game Controllers</a></li>
+                    <li><a href="">VR Accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="./images/menu.png" class="menu-icon" onclick="toggleMenu()" alt="">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS4 V2 <br>Dualshock 4</h2>
+                <h3>Wireless Contoller for Playstation 4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$32.50</h4>
+                <button type="button">Buy Now
+                    <img src="./images/arrow.png" alt="">
+                </button>
+            </div>
+            <div class="col-2">
+                <img src="./images/controller.png" class="controller" alt="">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="./images/add.png" alt="">
+                    <p>
+                        <small>Add to Cart</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/yavuzz.imer/" target="_blank">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/kyavuzimer/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </div>
+    </div>
+    <script>
+        const menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px"
+        const toggleMenu = () => {
+            if (menuList.style.maxHeight == "0px")
+                menuList.style.maxHeight = "130px"
+            else
+            menuList.style.maxHeight = "0px"
+        }
+    </script>
+</body>
+
+</html>
