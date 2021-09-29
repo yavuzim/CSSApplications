@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    font-family: 'Oswald',sans-serif;
+    background-color: rgba(249, 249, 249);
+    background-image: url('../images/rocket.png');
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0,0.25);
+    display: flex;
+    height: 100px;
+}
+.logo{
+    width: 80px;
+    height: 50px;
+    margin: 30px;
+    margin-left: 130px;
+}
+.navbar li{
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    left: 410px;
+}
+.navbar li a{
+    color: #000;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    color: #ff9d9d;
+}
+.entry{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.title h2{
+    font-size: 4rem;
+    font-weight: 600;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.moon{
+    width: 100%;
+}
+.btn{
+    width: 170px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    background-color: #ff6568;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+.scrool{
+    position: relative;
+    left: 45%;
+    top: 10px;
+    font-size: 21px;
+    color: #000;
+}
+
+@media (max-width:600px){
+    body{
+        background: none;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .btn{
+        position: relative;
+        left: 130px;
+        top: -20px;
+        width: 130px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .title h2{
+        position: relative;
+        left: 18px;
+        top: -20px;
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+    .moon{
+        width: 80%;
+        margin: 0 10px;
+    }
+    .scrool{
+        position: relative;
+        left: 100px;
+        
+    }
+}
